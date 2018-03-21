@@ -1,39 +1,40 @@
 {{ partial "header.html" . }}
-
 <body>
+
 <div class="section" id="top">
     <!-- Parent section -->
-
     <div class="container hero {{ if .Site.Params.fadeIn }} fade-in one {{ end }}">
         <!-- Begin Title -->
-        <h1 class="bold-title is-1">{{ .Title }}</h1>
+        <h1 class="bold-title is-1">Tagged "{{ lower .Title }}"</h1>
     </div>
     <!-- End Title -->
 
     <!-- Everything below fades in two! -->
-    <div class="section {{ if .Site.Params.fadeIn }} fade-in two {{ end }}">
+    <div class="section no-padding {{ if .Site.Params.fadeIn }} fade-in two {{ end }}">
 
         <div class="container">
             <!-- Begin Nav bar -->
-            {{ partial "nav-single.html" . }}
+            {{ partial "nav-list.html" . }}
         </div>
         <!-- End Nav bar -->
-
-        <div class="container markdown {{ if .Site.Params.fadeIn }} fade-in two {{ end }} top-pad">
-            <!-- Begin blog post content -->
-            {{ if .Params.image }}
-            <div class="has-text-centered">
-            <img src="{{ .Params.image }}" class="img-responsive"> 
-            </div>
-            {{ end }} 
-            
+        <article>
+            <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
             {{ .Content }}
-        </div>
-        <!-- End blog post content -->
+        </article>
 
-        <div class="disqus">
-            {{ template "_internal/disqus.html" . }}
+
+        <div class="container">
+            <!-- Begin Blog container -->
+            <ul>
+                <!-- Ranges through content/post/*.md -->
+                {{ range .Data.Pages.ByPublishDate }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Date.Format .Site.Params.dateForm }} | {{.Title}}</a>
+                </li>
+                {{ end }}
+            </ul>
         </div>
+        <!-- End Blog container -->
 
         <div class="container has-text-centered top-pad">
             <hr>
