@@ -29,8 +29,9 @@ canonifyurls        = true                              # Turns relative urls in
     fadein              = true                          # Turn on/off the fade-in effect
 
     showblog            = true                          # Show Blog section on home page
-    showdishes         = true                          # Show dishes section on home page
-    dishcolumns      = "3"                           # Choose "2" or "3" columns for dishes section
+    showdishes          = true                          # Show dishes section on home page
+    showmenu            = true                          # Show dishes section on home page
+    dishcolumns         = "3"                           # Choose "2" or "3" columns for dishes section
     placeholderimg      = "/img/santas-specialties-logo.jpg"            # For dishes without image
     showallposts        = false                         # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
     showlatest          = true                          # Show latest blog post summary

@@ -78,6 +78,13 @@
 
 <div class="container"><hr></div>
 
+{{ if .Site.Params.showMenu }}
+<div class="section" id="menu">
+    {{ partial "menu.html" . }}
+</div><!-- End Projects section -->
+
+<div class="container"><hr></div>
+{{ end }}
 
 <!-- Now for some delicisous dishes -->
     {{ if .Site.Params.showDishes }}
@@ -87,6 +94,7 @@
 
     <div class="container"><hr></div>
     {{ end }}
+
 
 
 <!-- Let's show some blog posts -->

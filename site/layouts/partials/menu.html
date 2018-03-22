@@ -1,0 +1,36 @@
+<div class="container">
+    <!-- Begin Menu container -->
+    <h2 class="title is-2 has-text-centered">Menu</h2>
+
+    <div class="section is-small">
+
+      <table class="table is-hoverable is-fullwidth is-striped">
+          <thead>
+            <tr>
+              <th>Dish</th>
+              <th>Description</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range sort .Pages }} {{ if eq .Section "menu" }}
+            <tr>
+              <td>{{ .Title }}</td>
+              <td>{{ .Description }}</td>
+              <td>${{ .Params.price }}</td>
+            </tr>
+          {{ end }} {{ end }}
+          </tbody>
+      </table>
+
+    </div>
+</div>
+<!-- End Dishes container -->
+
+
+
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
