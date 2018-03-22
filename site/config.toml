@@ -29,7 +29,7 @@ canonifyurls        = true                              # Turns relative urls in
     fadein              = true                          # Turn on/off the fade-in effect
 
     showblog            = false                          # Show Blog section on home page
-    showdishes          = true                          # Show dishes section on home page
+    showdishes          = false                          # Show dishes section on home page
     showmenu            = true                          # Show dishes section on home page
     dishcolumns         = "3"                           # Choose "2" or "3" columns for dishes section
     placeholderimg      = "/img/santas-specialties-logo.jpg"            # For dishes without image

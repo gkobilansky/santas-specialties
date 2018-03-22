@@ -1,5 +1,6 @@
 ---
-title: "Farfalle"
-description: "with asparagus lemon sauce"
+title: "Farfalle with asparagus lemon sauce"
+description: ""
 price: "45"
+type: "pasta"
 ---
