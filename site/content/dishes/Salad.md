@@ -1,9 +1,7 @@
 ---
-title: "Salad"
-date: 2017-11-13T12:21:16-05:00
-image: "img/salad.jpg"
-external_link: ""
-weight: 2
+title: Special Salad
+date: 2017-11-13T17:21:16.000Z
+image: img/salad.jpg
 ---
 
 This site was designed by [Gene Kobilansky](https://lancekey.com). Go on, explore! 💪
