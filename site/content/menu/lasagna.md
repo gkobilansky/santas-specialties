@@ -1,5 +1,5 @@
 ---
-title: "pasta"
+title: "Lasagna"
 description: "this is a description"
-price: "23"
+price: "50"
 ---

@@ -10,11 +10,14 @@
         <a href="/">Main</a>
       </span>
       <span class="nav-item">
-        <a href="/#about">About</a> 
+        <a href="/#about">About</a>
       </span>
-    {{ if .Site.Params.showProjects }}
       <span class="nav-item">
-        <a href="/#projects">Projects</a> 
+        <a href="/#menu">Menu</a>
+      </span>
+    {{ if .Site.Params.showDishes }}
+      <span class="nav-item">
+        <a href="/#projects">Dishes</a>
       </span>
     {{ end }}
       <span class="nav-item">
