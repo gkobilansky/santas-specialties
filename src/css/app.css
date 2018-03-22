@@ -29,8 +29,11 @@ a {
 }
 
 .is-welcome-cover {
+  background: #ffffff;
   background-image: url('/img/hero_image.jpg');
-  background-position: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.35)),
+    url('/img/hero_image.jpg');
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
