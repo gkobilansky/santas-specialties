@@ -28,7 +28,7 @@ canonifyurls        = true                              # Turns relative urls in
     footertext          = ""                            # Text to show in footer (overrides default text)
     fadein              = true                          # Turn on/off the fade-in effect
 
-    showblog            = true                          # Show Blog section on home page
+    showblog            = false                          # Show Blog section on home page
     showdishes          = true                          # Show dishes section on home page
     showmenu            = true                          # Show dishes section on home page
     dishcolumns         = "3"                           # Choose "2" or "3" columns for dishes section
