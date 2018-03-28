@@ -2,8 +2,9 @@
 <body>
 
 <div id="top"> <!-- Where all the awesome begins -->
+  <div class="corner-ribbon top-right sticky blue">Ask about our cooking classes</div>
 
-<div class="hero is-{{ .Site.Params.introHeight }} is-welcome-cover">
+  <div class="hero is-{{ .Site.Params.introHeight }} is-welcome-cover">
 <!-- Possible hero-head not used -->
 <div class="hero-head">
     <nav class="navbar">
@@ -38,6 +39,7 @@
     <nav class="nav-center">
         <a class="nav-item" href="#about">About</a>
         <a class="nav-item" href="#menu">Menu</a>
+        <a class="nav-item" href="#services">Services</a>
         {{ if .Site.Params.showDishes }}
         <a class="nav-item" href="#dishes">Dishes</a>
         {{ end }}
@@ -86,6 +88,32 @@
 
 <div class="container"><hr></div>
 {{ end }}
+
+<!-- What kind of Services do we provide -->
+<div class="section" id="services">
+    <div class="container">
+    <h2 class="title is-2 has-text-centered">Services</h2>
+
+        <div class="columns"><!-- Avatar and about.md side by side except mobile -->
+          <div class="column markdown">
+              {{ range .Data.Pages }}
+                  {{if eq .Title "Services" }}
+                          {{.Content}}
+                      {{end}}
+              {{ end }}
+          </div>
+            <div class="column markdown">
+                {{ range .Data.Pages }}
+                    {{if eq .Title "Additional Services" }}
+                            {{.Content}}
+                    {{end}}
+                {{ end }}
+            </div>
+        </div>
+    </div><!-- End About container-->
+
+<div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+</div><!-- End About section -->
 
 <!-- Now for some delicisous dishes -->
     {{ if .Site.Params.showDishes }}

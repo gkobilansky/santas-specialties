@@ -15,7 +15,7 @@ canonifyurls        = true                              # Turns relative urls in
     introheight         = "fullheight"                       # Input either 'medium' or 'large' or 'fullheight'
     themestyle          = "light"                        # Choose 'light' or 'dark'
     avatar              = "img/santas-specialties-logo.png"             # Path to image in static folder eg. img/avatar.png, or comment out to remove
-    email               = "jingobuca@yahoo.com"         # Shows in contact section, or leave blank to omit
+    email               = "santa@santasspecialties.com"         # Shows in contact section, or leave blank to omit
     localtime           = true                          # Show your current local time in contact section
     timezone            = "America/New_York"         # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
     dateform            = "Jan 2, 2006"
@@ -47,14 +47,11 @@ canonifyurls        = true                              # Turns relative urls in
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
 
-[[params.social]]
-    url = "https://twitter.com/"
-    icon = "twitter"
 
 [[params.social]]
     url = "https://facebook.com/"
     icon = "facebook"
 
 [[params.social]]
-    url = "https://linkedin.com/"
-    icon = "linkedin"
+    url = "https://instagram.com/"
+    icon = "instagram"

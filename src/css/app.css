@@ -30,9 +30,9 @@ a {
 
 .is-welcome-cover {
   background: #ffffff;
-  background-image: url('/img/hero_image.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.35)),
-    url('/img/hero_image.jpg');
+  background-image: url('/img/citrus-salad.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.15)),
+    url('/img/citrus-salad.jpg');
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,4 +42,30 @@ img.logo {
   border-radius: 0;
   border: none;
   box-shadow: none;
+}
+
+/* Banner */
+
+.corner-ribbon {
+  width: 300px;
+  background: #9d3321;
+  position: absolute;
+  padding: 0 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.corner-ribbon.top-right {
+  top: 60px;
+  right: -60px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
