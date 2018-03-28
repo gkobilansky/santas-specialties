@@ -10,6 +10,11 @@ html {
 
 .section #menu {
   background-image: url('/img/cocina.gif');
+  background-image: linear-gradient(
+      rgba(161, 54, 34, 0.5),
+      rgba(161, 54, 34, 0.1)
+    ),
+    url(/img/cocina.gif);
 }
 
 .section #menu .title {
