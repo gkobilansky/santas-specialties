@@ -4,18 +4,30 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.section {
+  background-image: url('/img/45-degree-fabric-light.png');
+}
+
+.section #menu {
+  background-image: url('/img/cocina.gif');
+}
+
+.section #menu .title {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+}
+
 a {
-  color: #ff5722;
+  color: #a13521;
 }
 
 .markdown a {
-  color: #ff5722;
+  color: #a13521;
 }
 
 .hero-body h1 {
   color: #fff;
   font-weight: 700;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .hero-body h3 {
@@ -48,7 +60,7 @@ img.logo {
 
 .corner-ribbon {
   width: 300px;
-  background: #9d3321;
+  background: #a13521;
   position: absolute;
   padding: 0 30px;
   text-align: center;
