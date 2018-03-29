@@ -25,11 +25,11 @@
 
 {{ if .Site.Params.enforce_ssl }}
 <script type="text/javascript">
-    var baseURL = '{{ .Site.BaseURL }}';
-    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
-    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
-        window.location.protocol = 'https:';
-    }
+var baseURL = '{{ .Site.BaseURL }}';
+var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+if (host === window.location.host && window.location.protocol !== 'https:') {
+  window.location.protocol = 'https:';
+}
 </script>
 {{ end }}
 
@@ -41,6 +41,7 @@ crossorigin="anonymous"></script>
 
 <!-- Fonts and icon CSS -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Domine:700" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
 
 {{ if .Site.Params.cacheBuster }}
