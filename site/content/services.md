@@ -3,7 +3,7 @@ title: "Services"
 date: 2018-03-09T13:23:28+08:00
 ---
 
-Please enjoy!
+_Catering_
 
 * Dinner parties (sit down to buffet)
 * Cocktail parties

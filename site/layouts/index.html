@@ -2,7 +2,7 @@
 <body>
 
 <div id="top"> <!-- Where all the awesome begins -->
-  <div class="corner-ribbon top-right sticky blue">Ask about our cooking classes</div>
+  <div class="corner-ribbon top-right sticky blue {{ if .Site.Params.fadeIn }}fade-in three{{ end }}">Ask about our cooking classes</div>
 
   <div class="hero is-{{ .Site.Params.introHeight }} is-welcome-cover">
 <!-- Possible hero-head not used -->
