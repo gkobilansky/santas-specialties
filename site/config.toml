@@ -10,7 +10,7 @@ canonifyurls        = true                              # Turns relative urls in
 
 [params]
     bloghead            = "Blog"                        # Full name shows on blog post pages
-    firstname           = "Delicious italian food"                # First name shows in introduction on main page
+    firstname           = "Delicious Food"                # First name shows in introduction on main page
     tagline             = "made special just for you"       # Appears after the introduction
     introheight         = "fullheight"                       # Input either 'medium' or 'large' or 'fullheight'
     themestyle          = "light"                        # Choose 'light' or 'dark'
@@ -21,7 +21,7 @@ canonifyurls        = true                              # Turns relative urls in
     dateform            = "Jan 2, 2006"
     dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
     cachebuster         = false                         # Add the current unix timestamp in query string for cache busting css assets (relevant in development mode)
-    description         = "Delicious italian food, made special just for you."        # Max 160 characters show in search results
+    description         = "Delicious food, made special just for you."        # Max 160 characters show in search results
     faviconfile         = "img/fav.ico"
     pygmentsStyle       = "monokai"                     # Choose theme: https://help.farbox.com/pygments.html
     pygmentsCodeFences  = true
