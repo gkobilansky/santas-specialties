@@ -17,7 +17,7 @@
             <tr>
               <th>Appetizers</th>
               <!-- <th>Description</th> -->
-              <th>Price</th>
+              <th class="has-text-right">Price</th>
             </tr>
           </thead>
 
@@ -26,7 +26,7 @@
             {{ range sort .Pages }} {{ if eq .Section "menu" }}{{ if eq .Params.type "appetizer"}}
               <td>{{ .Title }}</td>
               <!-- <td>{{ .Description }}</td> -->
-              <td>${{ .Params.price }}</td>
+              <td class="has-text-right">${{ .Params.price }}</td>
             </tr>
           {{ end }} {{ end }} {{ end }}
           </tbody>
@@ -36,7 +36,7 @@
             <tr>
               <th>Salads</th>
               <!-- <th>Description</th> -->
-              <th>Price</th>
+              <th class="has-text-right">Price</th>
             </tr>
           </thead>
 
@@ -45,7 +45,7 @@
             {{ range sort .Pages }} {{ if eq .Section "menu" }}{{ if eq .Params.type "salad"}}
               <td>{{ .Title }}</td>
               <!-- <td>{{ .Description }}</td> -->
-              <td>${{ .Params.price }}</td>
+              <td class="has-text-right">${{ .Params.price }}</td>
             </tr>
           {{ end }} {{ end }} {{ end }}
           </tbody>
@@ -55,7 +55,7 @@
             <tr>
               <th>Pastas</th>
               <!-- <th>Description</th> -->
-              <th>Price</th>
+              <th class="has-text-right">Price</th>
             </tr>
           </thead>
 
@@ -64,7 +64,7 @@
             {{ range sort .Pages }} {{ if eq .Section "menu" }} {{ if eq .Params.type "pasta"}}
               <td>{{ .Title }}</td>
               <!-- <td>{{ .Description }}</td> -->
-              <td>${{ .Params.price }}</td>
+              <td class="has-text-right">${{ .Params.price }}</td>
             </tr>
           {{ end }} {{ end }} {{ end }}
           </tbody>
@@ -74,7 +74,7 @@
             <tr>
               <th>Entrees</th>
               <!-- <th>Description</th> -->
-              <th>Price</th>
+              <th class="has-text-right">Price</th>
             </tr>
           </thead>
 
@@ -83,7 +83,7 @@
             {{ range sort .Pages }} {{ if eq .Section "menu" }} {{ if eq .Params.type "entree"}}
               <td>{{ .Title }}</td>
               <!-- <td>{{ .Description }}</td> -->
-              <td>${{ .Params.price }}</td>
+              <td class="has-text-right">${{ .Params.price }}</td>
             </tr>
           {{ end }} {{ end }} {{ end }}
           </tbody>
@@ -93,7 +93,7 @@
             <tr>
               <th>Sides</th>
               <!-- <th>Description</th> -->
-              <th>Price</th>
+              <th class="has-text-right">Price</th>
             </tr>
           </thead>
 
@@ -102,7 +102,7 @@
             {{ range sort .Pages }} {{ if eq .Section "menu" }} {{ if eq .Params.type "side"}}
               <td>{{ .Title }}</td>
               <!-- <td>{{ .Description }}</td> -->
-              <td>${{ .Params.price }}</td>
+              <td class="has-text-right">${{ .Params.price }}</td>
             </tr>
           {{ end }} {{ end }} {{ end }}
           </tbody>
@@ -112,7 +112,7 @@
             <tr>
               <th>Desserts</th>
               <!-- <th>Description</th> -->
-              <th>Price</th>
+              <th class="has-text-right">Price</th>
             </tr>
           </thead>
 
@@ -121,7 +121,7 @@
             {{ range sort .Pages }} {{ if eq .Section "menu" }} {{ if eq .Params.type "dessert"}}
               <td>{{ .Title }}</td>
               <!-- <td>{{ .Description }}</td> -->
-              <td>${{ .Params.price }}</td>
+              <td class="has-text-right">${{ .Params.price }}</td>
             </tr>
           {{ end }} {{ end }} {{ end }}
           </tbody>
