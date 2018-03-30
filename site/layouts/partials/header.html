@@ -21,18 +21,6 @@
 </title>
 <link rel="canonical" href="{{ .Permalink }}">
 
-<!-- HTTPS -->
-
-{{ if .Site.Params.enforce_ssl }}
-<script type="text/javascript">
-var baseURL = '{{ .Site.BaseURL }}';
-var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
-if (host === window.location.host && window.location.protocol !== 'https:') {
-  window.location.protocol = 'https:';
-}
-</script>
-{{ end }}
-
 <!-- jQuery -->
 <script
 src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -77,5 +65,7 @@ crossorigin="anonymous"></script>
 {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
+
+<script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
