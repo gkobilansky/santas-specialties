@@ -40,12 +40,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Contact Section"
-          name: "contact"
-          file: "site/content/contact.md"
-          fields:
-            - {label: "Title", name: "title", widget: string}
-            - {label: "Publish Date", name: "date", widget: "datetime"}
-            - {label: "Body", name: "body", widget: "markdown"}
+        name: "contact"
+        file: "site/content/contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "dishes" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Dishes" # Used in the UI, ie.: "New Post"
     folder: "site/content/dishes" # The path to the folder where the documents are stored
