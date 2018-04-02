@@ -1,6 +1,7 @@
 ---
-title: "Sunday Sauce - meatballs, sausage and braciole"
-description: "this is a description"
-price: "65"
-type: "entree"
+title: 'Sunday Sauce - meatballs, sausage and braciole'
+description: 'Just like Mama’s! '
+price: '65'
+type: entree
 ---
+
