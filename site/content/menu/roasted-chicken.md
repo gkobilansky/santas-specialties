@@ -1,6 +1,7 @@
 ---
-title: "Roasted chicken with garlic, herb and vinegar au jus"
-description: "this is a description"
-price: "57"
-type: "entree"
+title: 'Roasted Chicken with Garlic, Herb and Red Wine Vinegar Au Jus '
+description: 'This '
+price: '57'
+type: entree
 ---
+
