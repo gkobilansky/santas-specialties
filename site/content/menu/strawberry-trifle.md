@@ -1,6 +1,6 @@
 ---
 title: 'Strawberry Trifle '
-description: 'Can be made into individual servings '
+description: 'Decadent and delicious. Can be made into idivual desserts. '
 price: '25'
 type: dessert
 ---
