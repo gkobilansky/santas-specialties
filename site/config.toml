@@ -49,9 +49,9 @@ canonifyurls        = true                              # Turns relative urls in
 
 
 [[params.social]]
-    url = "https://facebook.com/"
+    url = "https://www.facebook.com/ilovefoodanddogs/"
     icon = "facebook"
 
 [[params.social]]
-    url = "https://instagram.com/"
+    url = "https://instagram.com/santasspecialties"
     icon = "instagram"
