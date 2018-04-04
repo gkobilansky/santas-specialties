@@ -1,6 +1,9 @@
 ---
-title: "Candied walnut tart"
-description: ""
-price: "30"
-type: "dessert"
+title: 'Candied Walnut Tart '
+description: >-
+  If you like Walnuts you will love this dessert , 1 lb of candied walnuts makes
+  this dessert a showstopper. 
+price: '30'
+type: dessert
 ---
+
