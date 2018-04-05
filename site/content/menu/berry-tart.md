@@ -1,6 +1,7 @@
 ---
-title: "Mixed berry tart with vanilla cream"
-description: ""
-price: "30"
-type: "dessert"
+title: 'Mixed Berry Tart with Vanilla Cream. '
+description: 'Dessert '
+price: '30'
+type: dessert
 ---
+
