@@ -1,6 +1,7 @@
 ---
-title: "Chocolate cake"
-description: ""
-price: "25"
-type: "dessert"
+title: 'Nearly Flourless Chocolate Cake. '
+description: Check ake
+price: '25'
+type: dessert
 ---
+
