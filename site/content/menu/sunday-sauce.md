@@ -1,5 +1,5 @@
 ---
-title: 'Sunday Sauce - Meatballs, Sausage and Braciola         Just like Mama’s!'
+title: 'Just like Mama’s Sunday Sauce - Meatballs, Sausage and Braciola         '
 description: 'Just like Mama’s! '
 price: '65'
 type: entree
