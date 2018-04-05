@@ -1,6 +1,9 @@
 ---
-title: "Arugula, endive & radicchio with blue cheese and toasted walnuts with a walnut sherry vinaigrette"
-description: ""
-price: "30"
-type: "salad"
+title: >-
+  Winter Salad -Arugula, Endive  & Radicchio with Crumbled Blue Cheese, Toasted
+  Walnuts with a  Sherry  Vinaigrette 
+description: Salad
+price: '30'
+type: salad
 ---
+
