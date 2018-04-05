@@ -1,6 +1,7 @@
 ---
-title: "Pecan pie"
-description: ""
-price: "25"
-type: "dessert"
+title: Pecan Pie
+description: 'Traditional '
+price: '25'
+type: dessert
 ---
+
