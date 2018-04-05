@@ -1,6 +1,7 @@
 ---
-title: "Spinach bread"
-description: "this is a description"
-price: "25"
-type: "appetizer"
+title: Spinach Bread
+description: this is a description
+price: '25'
+type: appetizer
 ---
+
