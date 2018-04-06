@@ -1,7 +1,7 @@
 ---
 title: Spinach Bread
 description: this is a description
-price: '25'
+price: '20'
 type: appetizer
 ---
 
