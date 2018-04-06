@@ -1,6 +1,7 @@
 ---
-title: "Fall Salad - romaine, figs, blue cheese, pecans with fig balsamic"
-description: ""
-price: "30"
-type: "salad"
+title: 'Fall Salad - Romaine, Figs , Blue Cheese, Pecans with a Balsamic Vinaigrette '
+description: Salad
+price: '30'
+type: salad
 ---
+
