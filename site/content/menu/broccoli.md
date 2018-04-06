@@ -1,6 +1,7 @@
 ---
-title: "Sautéed broccoli or broccoli rabe"
-description: "this is a description"
-price: "35"
-type: "side"
+title: 'Sautéed Broccoli or Broccoli Rabe '
+description: this is a description
+price: '35'
+type: side
 ---
+
