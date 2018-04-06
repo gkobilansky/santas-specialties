@@ -1,6 +1,9 @@
 ---
-title: "Crunch Salad - romaine, shredded kale, brussel sprouts, cabbage, red onion, carrots, feta and sliced almonds"
-description: ""
-price: "30"
-type: "salad"
+title: >-
+  Crunch Salad - Romaine, Shredded Kale, Brussel Sprouts, Cabbage , Carrots ,
+  Feta with Sliced  Almonds 
+description: Sa
+price: '30'
+type: salad
 ---
+
