@@ -1,7 +1,7 @@
 ---
-title: 'Puff Pastry Tart - Roasted Red Peppers & Olives '
+title: 'Whole Spaghetti Pie with Sopressata  '
 description: this is a description
-price: 20 per tart
+price: $30
 type: appetizer
 ---
 
