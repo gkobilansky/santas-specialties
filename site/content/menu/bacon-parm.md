@@ -1,7 +1,7 @@
 ---
-title: 'Puff Pastry Tart -Bacon and Parmesan  '
+title: 'Italian Cheescake with Fresh Ricotta '
 description: this is a description
-price: 20 per tart
-type: appetizer
+price: $35
+type: 'Dessert '
 ---
 
