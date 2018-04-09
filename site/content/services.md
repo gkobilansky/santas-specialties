@@ -12,6 +12,8 @@ date: 2018-03-09T05:23:28.000Z
 * Office parties
 * Birthday parties
 
+Free delivery in Manhattan. All orders come with bread, utensils | paper goods | sternos available upon request.
+
 _Party Menus_
 
 **Pasta Party:** Choose 3 pastas | 1 Salad | 1 dessert - $200
