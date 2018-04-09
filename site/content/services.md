@@ -14,7 +14,7 @@ date: 2018-03-09T05:23:28.000Z
 
 _Party Menus_
 
-**Pasta Party** - Choose 3 pastas | 1 Salad | 1 dessert - $200
+**Pasta Party:** Choose 3 pastas | 1 Salad | 1 dessert - $200
 
-**Dessert Party** - Choose any 4 desserts - $90
+**Dessert Party:** Choose any 4 desserts - $90
 (You supply the Prosecco 🍾 I’ll supply the dessert! 🍰)
