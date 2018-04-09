@@ -16,7 +16,7 @@ Free delivery in Manhattan. No minimum orders.
 
 All orders come with bread. Utensils, paper goods & sternos available upon request.
 
-:sparkles: _Party Menus_ :balloon:
+_Party Menus_
 
 **Pasta Party:** Choose 3 pastas | 1 Salad | 1 dessert - $200
 
