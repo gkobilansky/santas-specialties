@@ -4,7 +4,7 @@ date: 2018-03-09T05:23:28.000Z
 ---
 #### _Catering_
 
-Free delivery in Manhattan. 
+Free delivery in Manhattan. No minimum orders.
 
 * Dinner parties (sit down to buffet)
 * Cocktail parties
