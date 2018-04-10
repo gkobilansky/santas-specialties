@@ -79,6 +79,18 @@ a {
   -webkit-transform: rotate(45deg);
 }
 
+@media screen and (max-width: 768px) {
+  .corner-ribbon.top-right {
+    top: 0;
+    right: 0;
+    width: 100vw;
+    padding: 0;
+    transform: none;
+    -webkit-transform: none;
+    position: relative;
+  }
+}
+
 /* sections */
 
 .section {
