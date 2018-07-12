@@ -58,6 +58,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Menu Items"
     name: "menu"
     folder: "site/content/menu"
+    create: true # Allow users to create new documents in this collection
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: string, default: "Describe this dish!"}
