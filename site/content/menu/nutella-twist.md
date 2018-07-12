@@ -1,6 +1,7 @@
 ---
-title: "Nutella Twists"
-description: ""
-price: "22"
-type: "dessert"
+title: 'Nutella Twists Puff Pastry with Cinnamom Sugar and Nutella! YUM! '
+description: fff
+price: '28'
+type: dessert
 ---
+
