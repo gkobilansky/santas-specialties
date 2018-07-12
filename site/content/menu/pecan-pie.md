@@ -1,7 +1,7 @@
 ---
 title: Pecan Pie
 description: 'Traditional '
-price: '25'
+price: '35'
 type: dessert
 ---
 
