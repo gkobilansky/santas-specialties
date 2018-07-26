@@ -29,6 +29,7 @@ canonifyurls        = true                              # Turns relative urls in
     fadein              = true                          # Turn on/off the fade-in effect
 
     showblog            = false                          # Show Blog section on home page
+    shownewsletter      = true       
     showdishes          = false                          # Show dishes section on home page
     showmenu            = true                          # Show dishes section on home page
     dishcolumns         = "3"                           # Choose "2" or "3" columns for dishes section

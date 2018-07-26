@@ -45,14 +45,9 @@ img.logo {
 
 /* links */
 
-a {
+a, .section .button, .section a  {
   color: #a13521;
 }
-
-.markdown a {
-  color: #a13521;
-}
-
 /* Banner */
 
 .corner-ribbon {

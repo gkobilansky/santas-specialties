@@ -81,10 +81,41 @@
 
 <div class="container"><hr></div>
 
+{{ if .Site.Params.showNewsletter }}
+<div class="section" id="newsletter">
+  <div class="container">
+    <h2 class="title is-2 has-text-centered">Newsletter</h2>
+    <div class="markdown has-text-centered">
+        {{ range .Data.Pages }}
+            {{if eq .Title "Newsletter" }}
+                    {{.Content}}
+                {{end}}
+            {{ end }}
+    </div>
+
+<form name="newsletter" netlify>
+  <div class="field has-addons">
+    <div class="control is-expanded">
+      <input class="input is-large" type="text" placeholder="you@awesome.com">
+    </div>
+    <div class="control">
+      <a class="button primary is-large">
+        Sign Up
+      </a>
+    </div>
+  </div>
+</form>
+  </div>
+</div><!-- End newsletter section -->
+<div class="container"><hr></div>
+{{ end }}
+
+
+
 {{ if .Site.Params.showMenu }}
 <div class="section" id="menu">
     {{ partial "menu.html" . }}
-</div><!-- End Projects section -->
+</div><!-- End Menu section -->
 {{ end }}
 
 <!-- What kind of Services do we provide -->
@@ -136,7 +167,7 @@
 <!-- Let's chat, shall we? -->
 <div class="section" id="contact">
     <div class="container has-text-centered">
-    <h2 class="title is-2">Contact</h2>
+      <h2 class="title is-2 has-text-centered">Contact</h2>
         <div class="markdown">
             {{ range .Data.Pages }}
                 {{if eq .Title "Contact" }}
@@ -144,9 +175,50 @@
                     {{end}}
                 {{ end }}
         </div>
+        <div class="contact-form">
+          <form name="contact" class="has-text-left" netlify>
+            <div class="field ">
+              <label class="label">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Your Name" required>
+              </div>
+            </div>
 
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Subject</label>
+              <div class="control">
+                  <input class="input" type="text" placeholder="Interested in ..." required>
+              </div>
+            </div>
+
+
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="More Details" required></textarea>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="has-text-centered">
+                <button class="button">Submit</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        {{ if .Site.Params.email }}
+        <h3 class="subtitle is-3 has-text-centered top-pad"><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></h3>
+        {{ end }}
         {{ if .Site.Params.localTime }}
-        <p>My current local time is <span id="time"></span>.</p>
+        <p class="has-text-centered">My current local time is <span id="time"></span>.</p>
         <script type="text/javascript" src="/js/moment.js"></script>
         <script type="text/javascript" src="/js/moment-timezone.js"></script>
         <script type="text/javascript" src="/js/moment-timezone-with-data-2012-2022.js"></script>
@@ -161,9 +233,6 @@
 </script>
         {{ end }}
 
-        {{ if .Site.Params.email }}
-        <h3 class="subtitle is-3 has-text-centered top-pad"><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></h3>
-        {{ end }}
 
         {{ partial "social.html" . }}
     </div><!-- End Contact container -->
