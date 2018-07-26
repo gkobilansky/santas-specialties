@@ -51,6 +51,25 @@
           {{ end }} {{ end }} {{ end }}
           </tbody>
       </table>
+      <table class="table is-hoverable is-striped">
+          <thead>
+            <tr>
+              <th>Lunch</th>
+              <!-- <th>Description</th> -->
+              <th class="has-text-right">Price</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+            {{ range sort .Pages }} {{ if eq .Section "menu" }}{{ if eq .Params.type "lunch"}}
+              <td>{{ .Title }}</td>
+              <!-- <td>{{ .Description }}</td> -->
+              <td class="has-text-right">${{ .Params.price }}</td>
+            </tr>
+          {{ end }} {{ end }} {{ end }}
+          </tbody>
+      </table>
       <table class="table is-hoverable is-fullwidth is-striped">
           <thead>
             <tr>
