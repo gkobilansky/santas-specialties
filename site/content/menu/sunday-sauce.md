@@ -1,7 +1,9 @@
 ---
-title: 'Just like Mama’s Sunday Sauce - Meatballs, Sausage and Braciola         '
+title: >-
+  Just like Mama’s Sunday Sauce - Meatballs, Sausage and Braciola served with
+  your choice of Pasta    
 description: 'Just like Mama’s! '
-price: '65'
+price: '85'
 type: entree
 ---
 

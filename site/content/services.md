@@ -18,7 +18,7 @@ All orders come with bread. Utensils, paper goods & sternos available upon reque
 
 🎉 _Party Menus_ 🎈
 
-**Pasta Party:** Choose 3 pastas | 1 Salad | 1 dessert - $200
+**Pasta Party:** Choose 3 pastas | 1 Salad | 1 dessert - $225
 
-**Dessert Party:** Choose any 4 desserts - $90
+**Dessert Party:** Choose any 4 desserts - $120
 (You supply the Prosecco 🍾 I’ll supply the dessert! 🍰)

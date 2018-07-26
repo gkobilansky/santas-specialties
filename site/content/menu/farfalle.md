@@ -1,7 +1,7 @@
 ---
 title: 'Farfalle with Asparagus Lemon Sauce '
 description: 'Pasta '
-price: '45'
+price: '55'
 type: pasta
 ---
 

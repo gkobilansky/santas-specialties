@@ -1,7 +1,7 @@
 ---
-title: 'Whole Spaghetti Pie with Sopressata  '
+title: 'Whole Spaghetti Pie with Sopressata '
 description: this is a description
-price: '30'
+price: '45'
 type: appetizer
 ---
 
