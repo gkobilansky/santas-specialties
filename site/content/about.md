@@ -6,6 +6,8 @@ date: 2017-03-09T05:19:25.000Z
 
 For the Holiday season Santa's is providing a [special menu](https://www.santasspecialties.com/img/holiday-menu.pdf) for your special occasion. 
 
+[**2018 Sgarlato’s Kitchen Menu**](https://www.santasspecialties.com/img/holiday-menu.pdf)** **
+
 \## Our catering company
 
 Santa began cooking with her Mom, baking her first pumpkin pie at the age of five. A natural in the kitchen, she could always be found helping to prepare the famous multi-course dinners for her large Italian family gatherings, including her favorite Christmas Eve meal, Festa Dei Sette Pesci, Feast of the Seven Fishes.
