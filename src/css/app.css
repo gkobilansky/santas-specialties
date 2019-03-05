@@ -38,6 +38,7 @@ html {
 }
 
 img.logo {
+  max-width: 350px;
   border-radius: 0;
   border: none;
   box-shadow: none;
